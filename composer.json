@@ -1,0 +1,29 @@
+{
+    "name": "zapzapapi/sdk",
+    "description": "Official PHP SDK for the ZapZap API (WhatsApp platform).",
+    "type": "library",
+    "keywords": ["zapzap", "whatsapp", "api", "sdk", "messaging"],
+    "homepage": "https://zapzapapi.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GM Solutions Hub LTDA",
+            "email": "contato@zapzapapi.com",
+            "homepage": "https://zapzapapi.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZapZap\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
